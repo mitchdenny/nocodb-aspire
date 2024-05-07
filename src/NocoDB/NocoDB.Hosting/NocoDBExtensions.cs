@@ -23,8 +23,8 @@ public static class NocoDBResourceBuilderExtensions
         var postgresServerBuilder = builder.ApplicationBuilder.CreateResourceBuilder(postgresDatabase.Resource.Parent);
         var postgresServerEndpoint = postgresServerBuilder.GetEndpoint("tcp");
 
-        // NOTE: The expression {postgresServerEndpoint.Property(EndpointProperty.Host)} does not work because its not among
-        //       the set of 
+        // NOTE: The expression {postgresServerEndpoint.Property(EndpointProperty.Host)} does not work because localhost is
+        //       not correctly substituted with host.docker.internal. We need to fix this bug in Aspire.
         var referenceExpression = ReferenceExpression.Create($"pg://{postgresServerEndpoint.Property(EndpointProperty.Host)}:{postgresServerEndpoint.Property(EndpointProperty.Port)}?u={postgresServerBuilder.Resource.UserNameParameter}&p={postgresServerBuilder.Resource.PasswordParameter}&d={postgresDatabase.Resource.DatabaseName}");
 
         return builder.WithEnvironment("NC_DB", referenceExpression);
