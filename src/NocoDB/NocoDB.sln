@@ -1,0 +1,48 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.0.0
+MinimumVisualStudioVersion = 17.8.0.0
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NocoDB.AppHost", "NocoDB.AppHost\NocoDB.AppHost.csproj", "{609F3EF3-F3EC-4B52-A5CB-870E20F1ED9B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NocoDB.ServiceDefaults", "NocoDB.ServiceDefaults\NocoDB.ServiceDefaults.csproj", "{A3F315EA-C709-452D-BE1C-154B6541B43F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NocoDB.Hosting", "NocoDB.Hosting\NocoDB.Hosting.csproj", "{986C4A47-D29B-4604-9E25-74D33EFD98D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NocoDB.IntegrationTests", "NocoDB.IntegrationTests\NocoDB.IntegrationTests.csproj", "{76F43FDC-A820-41A2-8437-95D2D390953E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NocoDB.SampleApi", "NocoDB.SampleApi\NocoDB.SampleApi.csproj", "{52DC9DAE-548C-467D-9271-58B065077AFA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{609F3EF3-F3EC-4B52-A5CB-870E20F1ED9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{609F3EF3-F3EC-4B52-A5CB-870E20F1ED9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{609F3EF3-F3EC-4B52-A5CB-870E20F1ED9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{609F3EF3-F3EC-4B52-A5CB-870E20F1ED9B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3F315EA-C709-452D-BE1C-154B6541B43F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3F315EA-C709-452D-BE1C-154B6541B43F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3F315EA-C709-452D-BE1C-154B6541B43F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3F315EA-C709-452D-BE1C-154B6541B43F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{986C4A47-D29B-4604-9E25-74D33EFD98D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{986C4A47-D29B-4604-9E25-74D33EFD98D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{986C4A47-D29B-4604-9E25-74D33EFD98D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{986C4A47-D29B-4604-9E25-74D33EFD98D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76F43FDC-A820-41A2-8437-95D2D390953E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76F43FDC-A820-41A2-8437-95D2D390953E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76F43FDC-A820-41A2-8437-95D2D390953E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76F43FDC-A820-41A2-8437-95D2D390953E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52DC9DAE-548C-467D-9271-58B065077AFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52DC9DAE-548C-467D-9271-58B065077AFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52DC9DAE-548C-467D-9271-58B065077AFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52DC9DAE-548C-467D-9271-58B065077AFA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AEA94E59-89FB-4049-9A38-BF37D329DE93}
+	EndGlobalSection
+EndGlobal
